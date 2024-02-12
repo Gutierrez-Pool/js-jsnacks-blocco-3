@@ -11,3 +11,21 @@
 
 //  Nel nostro caso, se la chiamassimo così tagliaArray(arrayNumeri, 2, 4) ci restituirebbe un array così composto:
 //      [2, 3, 4]
+
+
+let arrayNumber = [0, 1, 2, 3, 4, 5, 6];
+
+
+function tagliaArray(a, b, c) {
+
+    let resultArray = [];
+
+    for (let i = 0; i >= b && i <= c; i++) {
+
+
+    }
+
+    return resultArray;
+}
+
+console.log (tagliaArray(arrayNumber, 2, 4));

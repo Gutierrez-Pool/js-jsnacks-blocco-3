@@ -14,7 +14,7 @@ function esercizio(a, b) {
 
     let sumArray = [];
 
-    for (let i = 0; i < b.length; i++) {
+    for (let i = 0; i < a.length || i < b.length; i++) {
 
         if (i < letterArray.length) {
             sumArray.push(letterArray[i]);
