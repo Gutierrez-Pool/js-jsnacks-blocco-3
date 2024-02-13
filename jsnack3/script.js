@@ -20,12 +20,13 @@ function tagliaArray(a, b, c) {
 
     let resultArray = [];
 
-    for (let i = 0; i >= b && i <= c; i++) {
+    for (let i = b; i <= c; i++) {
 
+        resultArray.push(a[i]);
 
     }
 
     return resultArray;
 }
 
-console.log (tagliaArray(arrayNumber, 2, 4));
+console.log (tagliaArray(arrayNumber, 1, 5));
